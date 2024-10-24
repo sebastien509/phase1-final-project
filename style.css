@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAEBD7; /* Beige color */
+    color: #333; /* Optional: Set text color to a dark shade for better readability */
+    }
+
+.logo {
+    position: fixed; /* Stays on top when scrolling */
+    top: 0;
+    width: 100%; /* Full-width navbar */
+    height: 40px; /* Navbar height */
+    background-color: #600808c4; /* Luxurious dark brown background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+    font-size: 2em;
+    font-weight: bold;
+    color: #f4f2e8; /* Luxurious gold */
+    font-family: 'Playfair Display', serif;
+    float: left; /* Align logo to the left */
+    z-index: 1000; /* Ensure it stays above all other content */
+}
+
+
+nav .logo:hover {
+    color: #02960e; /* Light champagne on hover */
+}
+
+/* Header section styling */
+header {
+    background: url('https://imgur.com/6DUOZBk.jpeg') no-repeat center center;
+    background-size: cover;
+    color: rgb(232, 216, 178);
+    padding: 420px 0;
+    text-align: center;
+    /* margin-top: 40px; */
+    size-adjust: 300px; 
+    /* Adjust to account for navbar height */
+}
+
+.inner {
+    font-size: 1.2em;
+    background-color: #0d01018a;
+    stroke: #03c859;
+    stroke-opacity: 30%;
+    stroke-width: 5px;
+    filter: drop-shadow(-1);
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#main-event {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Fixed 200px for menu, rest for wine display */
+    height: calc(100vh - 150px); /* Full height minus header and nav height */
+    margin-top: 0px;
+    padding: 400px;
+}
+
+/* Menu list styling */
+#menu-list {
+    background-color: #FAEBD7;
+    margin-bottom: 60px;
+    padding: 20px;
+    max-width: 200px;
+    height: 100%;
+    position: absolute;
+    overflow-y: scroll; 
+}
+
+    #menu-list img {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+}
+
+#menu-list img:hover {
+    transform: scale(1.07); /* Hover effect on the images */
+}
+
+     /* Soft shadow for depth */
+
+/* Wine display section (fixed on the right) */
+#wine-display {
+    letter-spacing: normal;
+    z-index: -1;
+    background-color: #f5e6c4; /* Light champagne gold */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin-top: 0px;
+    /* margin-bottom: 40px; */
+    padding: 20px;
+    /* height: calc(50% - 150px); Full height minus header */
+        /* display: flex;
+        flex-wrap: wrap; */
+    overflow: visible; /* Non-scrollable wine display */
+    position: absolute;
+    top: 950 px; /* Start below the header */
+    right: 20px;
+    width: calc(100% - 200px);
+    text-align: center;
+    
+    /* position: fixed; Width adjusted to fill the remaining space next to the menu */
+}
+
+/* Styling for the wine display frame */
+#wine-display {
+    background-color: #5c11049f; /* Rich dark brown background for a luxurious feel */
+    color: #EED6B7; /* Soft gold text for a vintage and luxurious look */
+    border: 1px solid #C7A17A; /* Soft gold border */
+    border-radius: 7px; /* Rounded corners for a smooth, polished frame */
+    padding: 30px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3); /* Fancy shadow for depth */
+    margin: 20px auto;
+    width: calc(100% - 260px); /* Adjust to fit next to the menu */
+    max-width: 1200px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif; /* Luxurious vintage font */
+}
+
+/* Header for each wine detail */
+#wine-display h1 {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 2.5rem;
+    color: #F1C40F; /* Rich golden color for headers */
+    margin-bottom: 10px;
+}
+
+/* Text styling for detailed wine information */
+#wine-display h2, h3 {
+    font-size: 1.3rem;
+    color: #EED6B7;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 10px;
+}
+
+/* Wine image styling */
+#wine-display img {
+    max-width: 60%;
+    height: 400PX;
+    border: 1px solid #C7A17A; /* Same gold border as the frame */
+    border-radius: 12px;
+    margin: 10px 0;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#wine-display button {
+    background-color: #6b0e06; /* Rich brown */
+    color: #EED6B7; /* Luxurious gold text */
+    border: 2px solid #C7A17A;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#wine-display button:hover {
+    background-color: #581b05; /* Slightly lighter brown on hover */
+    transform: scale(1.05); /* Scale button on hover */
+}
+
+id {
+    font-size: larger;
+}
+
+/* ============================================================ */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+.wrapper {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  height: 100vh;
+}
+
+#wine-display button {
+    color: #5f0f0fb0;
+  flex: 1;
+  padding: 25px 50px;
+  margin: 25px;
+  border-radius: 999px;
+  border: 5px solid color ;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  text-shadow: 0 3px 5px rgba(#000, 0.25);
+  white-space: nowrap;
+  color: #fff;
+  background: transparent;
+  background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+
+  &:hover {
+    background-position: 500% 100%;
+  }
+  
+  @for $i from 1 through 18 {
+    &:nth-child(#{$i}) {
+      filter: hue-rotate(($i * 20) + deg);
+    }
+  }
+}
+
+.wrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    height: 100vh;
+  }
+
+#menu-list button {
+    color: #5f0f0fb0;
+  flex: 1;
+  padding: 25px 50px;
+  margin: 25px;
+  border-radius: 999px;
+  border: 5px solid color ;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  text-shadow: 0 3px 5px rgba(#000, 0.25);
+  white-space: nowrap;
+  color: #fff;
+  background: transparent;
+  background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+
+  &:hover {
+    background-position: 500% 100%;
+  }
+  
+  @for $i from 1 through 18 {
+    &:nth-child(#{$i}) {
+      filter: hue-rotate(($i * 20) + deg);
+    }
+  }
+}
+
+#menu-list button:hover {
+    background-color: #581b05; /* Slightly lighter brown on hover */
+    transform: scale(1.05); /* Scale button on hover */
+}
+
+
+/* #wine-display button{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: #350602;
+    color: white;
+    border: beige;
+    border-width: 3px;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+
+}
+
+#wine-display button:hover{
+    background-color: #577a07 ;
+} */
+
+/* ================================================================== */
+#wine-display {
+    background-color: #f4efe4; /* Light vintage beige for luxurious feel */
+    font-family: 'Playfair Display', serif; /* Vintage and luxurious font */
+    color: #5f4b32; /* Deep vintage gold */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#wine-display h1, #wine-display h2, #wine-display h3 {
+    color: #8b5e3c; /* Rich brownish-burgundy for headings */
+}
+
+#wine-display p {
+    font-size: 18px;
+    color: #6b4423; /* Slightly lighter vintage brown */
+}
+/* ================================================ */
+/* Welcome Frame Image Resize */
+#welcome-frame img {
+    width: 100%; /* Resize to fill the wine display area */
+    height: auto;
+    max-height: 600px; /* Set max height */
+}
+
+/* Welcome Text Styling */
+#welcome-frame h1 {
+    font-size: 3em;
+    color: #800020; /* Burgundy */
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Luxurious font */
+}
+
+#welcome-frame p {
+    font-size: 1.5em;
+    color: #5f4b32; /* Deep vintage gold */
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px; /* Limit text width */
+}
+
+#wine-form-container {
+    display: none; /* Initially hidden */
+    background-color: #F9F3EE; /* Light Champagne background */
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px; /* Slightly smaller and wider */
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for luxury feel */
+}
+
+/* Styling the form itself */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h3 {
+    color: #854442; /* Soft Burgundy */
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    color: #4E4A47; /* Charcoal */
+    font-size: 16px;
+}
+
+input, textarea {
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid #854442; /* Soft Burgundy */
+    border-radius: 8px;
+    background-color: #F1EDE6; /* Lighter Champagne */
+    color: #4E4A47; /* Charcoal text */
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+/* Submit button styling with luxurious feel */
+#submit-button {
+    background-color: #854442; /* Soft Burgundy */
+    color: #F9F3EE; /* Light Champagne */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit-button:hover {
+    background-color: #6B3A33; /* Darker Burgundy on hover */
+    transform: scale(1.05);
+}
+
+/* Show form button styling */
+#show-form-btn {
+    background-color: #4E4A47; /* Charcoal */
+    color: #F9F3EE; /* Light Champagne */
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #854442; /* Soft Burgundy */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#show-form-btn:hover {
+    background-color: #6B3A33; /* Darker Burgundy */
+    transform: scale(1.05);
+}
+
+
+
+/* ========================================================== */
+  
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: 10;
+    transform: translateX(-50%) translateY(-50%);
+    animation: fade-in 0.75s 0.25s ease-in forwards;
+    h1 {
+      margin: 0;
+      font-size: 4em;
+      line-height: 1.2em;
+    }
+    p {
+      margin: 0;
+      font-size: 1.4em;
+      font-style: italic;
+      font-family: serif;
+    }
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    &.scrolled {
+      background: rgba(#59050598, 0.9);
+    }
+  }
+  
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* ============================================== */
+  /* Footer styling */
+

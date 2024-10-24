@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestigious Wine Collection</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+        <nav class="logo" >TW</nav>
+
+    <header class="fade-in-header">
+        <div class="inner"> 
+                <h1 >Most Prestigious Wine Bottles Ever Sold</h1>
+                <p>Luxury, rarity, and history in every bottle</p>
+        </div>
+    </header>
+
+    <div id="#main-event">
+
+        <div id="menu-list">
+            <!-- <button id="button-form">+</button> -->
+            
+        </div>
+        
+    </div>  
+    
+    <div id="wine-form-container" style="display: none;">
+        <form id="wine-form">
+            <h3>Add a New Wine</h3>
+            
+            <label for="winery">Winery:</label>
+            <input type="text" id="winery" name="winery" required>
+            
+            <label for="wine-year">Year:</label>
+            <input type="number" id="wine-year" name="wine-year" required>
+            
+            <label for="wine-image">Image URL:</label>
+            <input type="text" id="wine-image" name="wine-image" required>
+            
+            <label for="wine-price">Price:</label>
+            <input type="number" id="wine-price" name="wine-price" required>
+            
+            <label for="wine-region">Region:</label>
+            <input type="text" id="wine-region" name="region" required>
+            
+            <label for="region-image">Region Image URL:</label>
+            <input type="text" id="region-image" name="region-image" required>
+            
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+            
+            <input type="submit" id="submit-button" value="Create" />
+        </form>
+    </div>
+    <div id="wine-display">
+        <h1> Discover the finest and most prestigious wine bottles ever sold around the world. Explore exquisite vineyards, iconic regions, and legendary vintages that have captivated connoisseurs for centuries.</h1>
+        <img id="#welcome-frame" src="https://imgur.com/WIZ7dh4.jpg" alt="welcome-frame" style="max-width:1000px;">
+
+    </div>
+    <div id="#button-container" ></div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

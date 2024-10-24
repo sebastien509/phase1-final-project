@@ -1,0 +1,147 @@
+{
+  "wines": [
+    {
+      "id": "1",
+      "year": "1945",
+      "winery": "Domaine de la Romanee-Conti Grand Cru",
+      "image": "https://i.imgur.com/ZdM7r3K.jpeg",
+      "region": "Cote d'or - Burgundy",
+      "imageRegion": "https://imgur.com/48EfAZY.jpeg",
+      "price": "558000",
+      "type": "Red",
+      "comment": "The Rominee-Conti is known for its aromatics of dark fruits, sweet spice, and hints of forest. This wine acquired its price of $558,000 at an auction in Geneva, Switzerland, making it the most expensive aged wine in the world. Interestingly, the bid started at $32,000 – that is a 1643.75% leap!"
+    },
+    {
+      "id": "2",
+      "year": "1992",
+      "winery": "Screaming Eagle Cabernet Sauvignon",
+      "image": "https://i.imgur.com/LwZ5rua.jpeg",
+      "region": "Nappa Valley",
+      "imageRegion": "https://imgur.com/eCRvJLI.jpeg",
+      "price": "500000",
+      "type": "Red",
+      "comment": "1992 was the first-ever vintage produced by Screaming Eagle Cabernet Sauvignon. Only 175 cases were produced, and Screaming Eagle Cabernet was still finding its footing as a luxury wine producer at that time."
+    },
+    {
+      "id": "3",
+      "year": "1945",
+      "winery": "Jeroboam of Chateau Mouton-Rothschild",
+      "image": "https://imgur.com/I37kRMS.jpg",
+      "region": "Bordeaux",
+      "imageRegion": "https://imgur.com/RDxnvN1.jpg",
+      "price": "310000",
+      "type": "Red",
+      "comment": "Jeroboam was produced in the vineyards of Nathaniel Rothschild and is known as one of the best wines made in the last 100 years. Its label bears the famous ‘V’ symbol, signifying the victory of the allied forces in World War II."
+    },
+    {
+      "id": "4",
+      "year": "1907",
+      "winery": "Heidsieck",
+      "image": "https://imgur.com/k5KgXhv.jpeg",
+      "region": "Champagne",
+      "imageRegion": "https://imgur.com/1z8mRsd.jpeg",
+      "price": "275000",
+      "type": "Sparkling",
+      "comment": "The 1907 Heidsieck, considered the world’s most expensive Champagne, was discovered in 1998 in the Gulf of Finland where 2000 bottles were uncovered."
+    },
+    {
+      "id": "5",
+      "year": "1947",
+      "winery": "Cheval Blanc ",
+      "image": "https://imgur.com/79GrD3s.jpeg",
+      "region": "St-Emillon",
+      "imageRegion": "https://imgur.com/IkkV1qa.jpeg",
+      "price": "304375",
+      "type": "Red",
+      "comment": "Known as one of the most iconic vintages, the Cheval Blanc 1947 is a wine that has stood the test of time."
+    },
+    {
+      "id": "6",
+      "year": "1869",
+      "winery": "Château Lafite",
+      "image": "https://imgur.com/Miro0LE.jpeg",
+      "region": "Pauillac",
+      "imageRegion": "https://imgur.com/VRlQtXi.jpeg",
+      "price": "230000",
+      "type": "Red",
+      "comment": "The Chateau Lafite 1869 is the first vintage produced by the Rothschild family. It is one of the best wines to hail from Bordeaux."
+    },
+    {
+      "id": "7",
+      "year": "1787",
+      "winery": "Chateau Margaux",
+      "image": "https://imgur.com/Vy5D73q.jpeg",
+      "region": "Bordeaux",
+      "imageRegion": "https://imgur.com/fNgnkLL.jpeg",
+      "price": "225000",
+      "type": "Red",
+      "comment": "This wine from 1787 was once owned by Thomas Jefferson and was valued at $500,000, but the bottle was broken."
+    },
+    {
+      "id": "8",
+      "year": "2004",
+      "winery": "Penfolds, \"Ampoule, Block\"",
+      "image": "https://imgur.com/0vwANZq.jpeg",
+      "region": "Australia",
+      "imageRegion": "https://imgur.com/k776zl5.jpeg",
+      "price": "168000",
+      "type": "Red",
+      "comment": "The Block 42-Cabernet Sauvignon 2004 is a limited-edition wine kept in an ampoule within a glass vestibule."
+    },
+    {
+      "id": "9",
+      "year": "1787",
+      "winery": "Chateau Lafite Rothschild",
+      "image": "https://imgur.com/Vy5D73q.jpeg",
+      "region": "Bordeaux",
+      "imageRegion": "https://imgur.com/7Ayao2M.jpeg",
+      "price": "156450",
+      "type": "Red",
+      "comment": "The Chateau Lafite Rothschild 1787 was recovered nearly 200 years later in a cellar in Paris, and its value comes from being part of Thomas Jefferson’s collection."
+    },
+    {
+      "id": "10",
+      "year": "1999",
+      "winery": "Henri Jayer, Vosne-Romanée Cros Parantoux",
+      "image": "https://imgur.com/gkD1oM9.jpeg",
+      "region": "Cote d'or",
+      "imageRegion": "https://imgur.com/rQJZcg5.jpg",
+      "price": "136955",
+      "type": "Red",
+      "comment": "The Vosne-Romanee Cros Parantoux 1999 was crafted by Henri Jayer, known as the “Master of Pinot Noir”."
+    },
+    {
+      "id": "11",
+      "year": "1874",
+      "winery": "Château d’Yquem",
+      "image": "https://imgur.com/KdXW4qn.jpg",
+      "region": "Bordeaux",
+      "imageRegion": "https://imgur.com/RqFdyU5.jpg",
+      "price": "71675",
+      "type": "White/Sweet",
+      "comment": "Château d’Yquem Sauternes represents the pinnacle of collectible sweet wines. This bottle sold for more than $70,000 at a Zachys sale in Beverly Hills."
+    },
+    {
+      "id": "12",
+      "year": "1959",
+      "winery": "Egon Muller Scharzhofberger Riesling Trockenbeerenauslese",
+      "image": "https://imgur.com/FL0tXYi.jpg",
+      "region": "Mosel, Germany",
+      "imageRegion": "https://imgur.com/8X0zruh.jpeg",
+      "price": "41580",
+      "type": "White",
+      "comment": "This sweet wine from Weingut Egon Muller has sublime aromas of ripe lemon, rock, minerality, and spices."
+    },
+    {
+      "id": "13",
+      "year": "1775",
+      "winery": "Massandra Sherry de la Frontera",
+      "image": "http://vino-vodka.eu/content/products/full-292.jpg",
+      "region": "Crimea",
+      "imageRegion": "https://imgur.com/N6jlu9p.jpg",
+      "price": "43500",
+      "type": "Red",
+      "comment": "Massandra is the oldest wine cellar in Ukraine and the 1775 Sherry is the rarest European wine from this winery. In 2001, one decanter of this Massandra Sherry de la Frontera 1775, commonly known as 1775 Massandra Sherry, was auctioned for a mind-blogging price of $43,500 in London."
+    }
+  ]
+}
