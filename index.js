@@ -11,7 +11,7 @@ buttonContainer.classList.add('button-container');
 // Initial function to fetch and display wines
 getWineToDisplay();
 async function getWineToDisplay() {
-  const response = await fetch("http://localhost:3000/wines");
+  const response = await fetch("https://new-seed-json.onrender.com/wines");
   const data = await response.json();
 
   // Displaying each wine in the list
@@ -101,7 +101,7 @@ function displayWineDetails(wine) {
 
   // Event listener for deletion
   deleteButton.addEventListener("click", async () => {
-    await fetch(`http://localhost:3000/wines/${wine.id}`, {
+    await fetch(`https://new-seed-json.onrender.com/wines/${wine.id}`, {
       method: "DELETE",
     });
     wineDisplay.innerHTML = ""; // Clear the display after deletion
@@ -143,7 +143,7 @@ async function updateWineDetails(id) {
   const updatedRegionImage = document.querySelector("#region-image").value;
   const updatedComment = document.querySelector("#comment").value;
 
-  await fetch(`http://localhost:3000/wines/${id}`, {
+  await fetch(`https://new-seed-json.onrender.com/wines/${id}`, {
     method: "PATCH",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -174,7 +174,7 @@ const submitFunction = async (event) => {
   const regionImageInput = document.querySelector("#region-image").value;
   const commentInput = document.querySelector("#comment").value;
 
-  await fetch("http://localhost:3000/wines", {
+  await fetch("https://new-seed-json.onrender.com/wines", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
